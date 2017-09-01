@@ -7,3 +7,5 @@ console.log(`Hello, ${myArg}`);
 
 // capture multiple args, no matter how many, using destructuring assignment
 let [,, ...myArgs] = process.argv;
+
+console.log(parseInt(process.argv[2]) + parseInt(process.argv[3]));
